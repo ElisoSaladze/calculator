@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    font-size: 30px;
+}
+button {
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1em;
+}
+.c {
+    color: rgba(255, 96, 96, 1);
+}
+.blue {
+    color: rgba(0, 176, 215, 1);
+}
+.center {
+    background-color: #00223A;
+}
+.display .input {
+    font-size: 1.6em;
+}
+.display .output {
+    font-size: 2.6em;
+}
+.center {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: auto;
+    border-radius: 40px;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-self: flex-end;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.grid {
+    padding: 30px;
+    background: #001B2F;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
